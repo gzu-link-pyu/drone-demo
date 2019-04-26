@@ -6,7 +6,7 @@ services:
   - docker
 
 before_script:
-  - echo "pyu@#$56" | docker login -u "pyu12" --password-stdin
+  - echo "pyu@#\$56" | docker login -u "pyu12" --password-stdin
 
 script:
   - echo "test xXXXXxxXXXxxXXXxxx  code"
